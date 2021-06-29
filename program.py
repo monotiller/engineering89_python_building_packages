@@ -1,5 +1,5 @@
-from app.fizzbuzz import Fizzbuzz
+from app.complicated_calc import ComplicatedCalc
 
-one_to_100 = Fizzbuzz(1, 100)
+divide_numbers = ComplicatedCalc.divisible(3, 2)
 
-print(one_to_100.fizzbuzz_list)
+print(divide_numbers.calc_list)
